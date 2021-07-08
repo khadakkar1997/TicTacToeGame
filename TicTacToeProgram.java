@@ -9,7 +9,7 @@ public class TicTacToeProgram {
         public static  char[] CreateEmptyBoard ()
         {
             char[] board = new char[10];
-            for(int i=0; i < 10 ; i++)
+            for(int i=1; i < 10 ; i++)
             {
                 board[i] = ' ';
             }
@@ -18,7 +18,7 @@ public class TicTacToeProgram {
         
         
         
-               static void main(String[] args)
+            public static void main(String[] args)
                {
                 
                    
